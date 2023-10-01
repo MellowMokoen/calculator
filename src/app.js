@@ -27,6 +27,6 @@ function calculate() {
         let result = eval(expression);
         document.getElementById('display').value = result;
     } catch (error) {
-        document.getElementById('number').value = 'Error';
+        document.getElementById('display').value = 'Invalid';
     }
 }
