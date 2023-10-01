@@ -1,6 +1,6 @@
 .container {
-    margin-top: 80px;
-
+    margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .input {
@@ -8,8 +8,32 @@
     justify-content: center;
 }
 
+#number {
+    margin-right: 10px;
+}
+
+#display {
+    margin-left: 2px;
+}
+
+#display, #number {
+    border-radius: 4px 4px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border: none;
+    margin-bottom: 20px;
+}
+
 button {
+    color: grey;
     margin: 10px;
+    border: 1px;
+    box-shadow: 4px 4px 1px 2px gray;
+    border-radius: 3px 3px;
+}
+
+button:hover {
+    color: brown;
+    background-color: burlywood;
 }
 
 .buttons1, .buttons2, .buttons3, .buttons4, .buttons5{
@@ -20,6 +44,7 @@ button {
 
 .btn {
     padding: 5px 19px;
+    font-family: monospace;
 }
 
 .signs {
