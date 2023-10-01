@@ -1,3 +1,33 @@
-h1 {
-    color: brown;
+.container {
+    margin-top: 80px;
+
 }
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+}
+
+.buttons1, .buttons2, .buttons3, .buttons4, .buttons5{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 5px 19px;
+}
+
+.signs {
+    padding: 9px 30px;
+}
+
+
+
+
+
+
