@@ -1,9 +1,9 @@
 body {
-    color: brown;
+    margin-bottom: 0;
 }
 .container {
-    margin-top: 20px;
-    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-bottom: 20px;
     padding-top: 30px;
     border: 2px solid grey;
     border-radius: 50%;
@@ -29,6 +29,7 @@ body {
     box-shadow: 2px 2px 2px 2px black;
     border: none;
     margin-bottom: 20px;
+    padding: 9px;
 }
 
 button {
@@ -61,6 +62,13 @@ button:hover {
 
 .signs {
     padding: 9px 30px;
+}
+
+p {
+    color: #0099CC;
+    font-family: fantasy;
+    font-size: medium;
+    padding: 0 10px;
 }
 
 
