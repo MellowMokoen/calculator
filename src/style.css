@@ -14,6 +14,7 @@ body {
 .input {
     display: flex;
     justify-content: center;
+
 }
 
 #number {
@@ -25,6 +26,9 @@ body {
 }
 
 #display, #number {
+    color: #0099CC;
+    font-family: monospace;
+    font-weight: bold;
     border-radius: 4px 4px;
     box-shadow: 2px 2px 2px 2px black;
     border: none;
@@ -41,8 +45,11 @@ button {
 }
 
 button:hover {
-    color: white;
     background-color: burlywood;
+}
+
+.btn:hover {
+    color: white;
 }
 
 .buttons1, .buttons2, .buttons3, .buttons4, .buttons5{

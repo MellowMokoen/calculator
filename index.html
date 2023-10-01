@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <span class="input">
-        <input type="number" name="" id="number" />
+        <input type="" id="number" />
         <input type="" id="display" />
       </span>
       <div class="buttons1">
@@ -28,9 +28,9 @@
 
         <button onclick="appendToDisplay('@')" class="btn signs">@</button>
 
-        <button onclick="clearDisplay('1')" class="btn signs">del</button>
+        <button onclick="clearDisplay()" class="btn signs">delete</button>
 
-        <button type="button" class="btn signs">back</button>
+        <button onclick="moveBack()" class="btn signs">back</button>
       </div>
       <div class="buttons2">
         <button onclick="appendToDisplay('*')" class="btn signs">*</button>
@@ -60,7 +60,7 @@
         <button onclick="appendToDisplay('3')" class="btn">3</button>
       </div>
       <div class="buttons5">
-        <button onclick="calculator()" class="btn signs">=</button>
+        <button onclick="calculate()" class="btn signs">=</button>
 
         <button onclick="appendToDisplay('00')" class="btn">00</button>
 
