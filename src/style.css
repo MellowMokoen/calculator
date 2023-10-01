@@ -1,13 +1,14 @@
 body {
-    background-image: url(/background\ \(3\).jpg);
+    color: brown;
 }
 .container {
     margin-top: 40px;
     padding-bottom: 30px;
     padding-top: 30px;
     border: 2px solid grey;
-    border-radius: 40%;
-    background-color: burlywood;
+    border-radius: 50%;
+    box-shadow: 5px 5px grey;
+    background-image: url(/background\ \(3\).jpg);
 }
 
 .input {
@@ -31,15 +32,15 @@ body {
 }
 
 button {
-    color: grey;
+    color: rgb(243, 237, 237);
     margin: 10px;
     border: 1px;
-    box-shadow: 4px 4px 1px 2px gray;
+    box-shadow: 4px 4px 1px 2px black;
     border-radius: 3px 3px;
 }
 
 button:hover {
-    color: brown;
+    color: white;
     background-color: burlywood;
 }
 
@@ -53,6 +54,8 @@ button:hover {
 .btn {
     padding: 5px 19px;
     font-family: monospace;
+    color: black;
+    font-weight: bold;
 }
 
 .signs {
